@@ -1,10 +1,14 @@
+import RecipeList from "../Recipe/RecipeList";
+
 import Container from "../../styles/shared/Container";
 
 const Home = () => {
   return (
-    <main>
-      <Container>Home</Container>
-    </main>
+    <Container>
+      <main>
+        <RecipeList title="Recent Recipes" />
+      </main>
+    </Container>
   );
 };
 

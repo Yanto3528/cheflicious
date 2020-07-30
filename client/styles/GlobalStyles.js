@@ -14,8 +14,13 @@ export default createGlobalStyle`
   body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
+    color: ${({ theme }) => theme.grey};
     background-color: ${({ theme }) => theme.lightgrey};
     line-height: 1.5;
+  }
+  h1, h2, h3, h4, h5,h6 {
+    font-family: "Poppins", sans-serif;
+    color: ${({ theme }) => theme.darkgrey};
   }
   a {
     text-decoration: none;

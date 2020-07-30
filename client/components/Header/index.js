@@ -16,7 +16,7 @@ const Header = () => {
           <Searchbar />
           <NavMenu>
             <NavMenuItem>
-              <Link href="/">
+              <Link href="/categories">
                 <a>Categories</a>
               </Link>
             </NavMenuItem>

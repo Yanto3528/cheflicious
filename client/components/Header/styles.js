@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
   height: 80px;
+  margin-bottom: 50px;
   background-color: white;
   box-shadow: ${({ theme }) => theme.boxShadow};
 `;
